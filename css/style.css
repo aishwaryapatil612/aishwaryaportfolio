@@ -77,6 +77,9 @@ img{
     height: auto;
     display: block;
 }
+.main{
+    margin: 0 2.5rem;
+}
 
 .section{
     padding: 4rem 0 2rem;
@@ -90,7 +93,7 @@ img{
 
 .section-subtitle{
     color:var(--first-color-darken);
-    font-size: var(--small-font-size);
+    font-size:var(--h3-font-size);
     text-align: center;
     font-weight: var(--font-bold);
     display: block;
@@ -133,6 +136,9 @@ img{
     justify-content: center;
     padding: 3rem;
     transition: 0.3s;
+}
+.nav-logo{
+    color: var(--first-color);
 }
 .nav-close{
     position: absolute;
@@ -254,29 +260,19 @@ img{
     margin-bottom: var(--mb-1);
     gap:0.25rem;
 }
-.skills-conatiner{
-    row-gap: 1rem;
-}
-.skills-subtitle{
-   color:var(--first-color-dark);
-   font-size: var(--h3-font-size);
-}
 .skills-data{
-    position: relative;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: var(--mb-2);
-    flex-direction: column;
-}
-.skills-data1{
-    row-gap: 2rem;
-    display: flex;
+    flex-direction: row;
     align-items: center;
-    /* gap: 12rem; */
-    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+   justify-content: center;
 }
-progress{
-    width: 100%;
+
+.skills-data .btn{
+    background-color: rgb(93, 173, 224);
+    padding: 0.65rem 0.75rem;
+    border-radius: 0.75rem;
 }
 .contact-container{
     row-gap: 3rem;
@@ -313,6 +309,17 @@ progress{
     padding-left: 0.75rem;
     display: block;
 }
+.responsibility-data{
+    list-style: disc;
+    text-align: start;
+    margin: 0 1.5rem;
+}
+.responsibility-data-subtitle{
+    text-align: start;
+margin: 0.5rem 0rem;
+font-weight: 600;
+}
+
 
 .footer{
     background-color:var(--first-color-darken);

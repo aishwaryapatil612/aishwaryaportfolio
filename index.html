@@ -11,6 +11,8 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <header class="first-header">
@@ -27,7 +29,7 @@
           </div>
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="#home" class="nav-link active">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
               <a href="#about" class="nav-link">About</a>
@@ -35,15 +37,18 @@
             <li class="nav-item">
               <a href="#skills" class="nav-link">Skills</a>
             </li>
-            <li class="nav-item">
-              <a href="#education" class="nav-link">Education</a>
-            </li>
-            <li class="nav-item">
+             <li class="nav-item">
               <a href="#experience" class="nav-link">Experience</a>
             </li>
+            
+            <!-- <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li> -->
+         
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact Me</a>
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
+            
           </ul>
         </div>
       </nav>
@@ -74,11 +79,12 @@
               class="button home-button"
               >Download Resume</a
             >
+           
           </div>
         </div>
       </section>
       <section class="about section" id="about">
-        <span class="section-subtitle">My Intro</span>
+       
         <h2 class="section-title">About Me</h2>
         <div class="about-conatiner bd-grid">
           <div class="about-data">
@@ -113,90 +119,77 @@
         </div>
       </section>
       <section class="skills section" id="skills">
-        <span class="section-subtitle">Why Choose Me</span>
+      
         <h2 class="section-title">My Skills</h2>
         <div class="skills-conatiner bd-grid">
           <div class="skills-content">
-            <h3 class="skills-subtitle">FrontEnd</h3>
+          
             <div class="skills-data">
-              <div class="skills-data1">
-                <span class="skills-name">HTML</span>
-                <span class="skills-number">85%</span>
-              </div>
-              <progress id="skills-html" value="85" max="100">85%</progress>
+              <div class="btn">HTML</div>
+              <div class="btn">CSS</div>
+              <div class="btn">JavaScript</div>
+              <div class="btn">ReactJs</div>
+              <div class="btn">Bootstrap</div>
+              <div class="btn">Tailwind CSS</div>
+              <div class="btn">NodeJs</div>
+              <div class="btn">RWD</div>
+              
             </div>
-            <div class="skills-data">
-              <div class="skills-data1">
-                <span class="skills-name">CSS</span>
-                <span class="skills-number">85%</span>
-              </div>
-              <progress id="skills-html" value="85" max="100">85%</progress>
-            </div>
-            <div class="skills-data">
-              <div class="skills-data1">
-                <span class="skills-name">JavaScript</span>
-                <span class="skills-number">85%</span>
-              </div>
-              <progress id="skills-html" value="85" max="100">85%</progress>
-            </div>
-            <div class="skills-data">
-              <div class="skills-data1">
-                <span class="skills-name">Bootstrap</span>
-                <span class="skills-number">85%</span>
-              </div>
-              <progress id="skills-html" value="85" max="100">85%</progress>
-            </div>
-            <div class="skills-data">
-              <div class="skills-data1">
-                <span class="skills-name">Reactjs</span>
-                <span class="skills-number">85%</span>
-              </div>
-              <progress id="skills-html" value="85" max="100">85%</progress>
-            </div>
-            <div class="skills-data">
-              <div class="skills-data1">
-                <span class="skills-name">RWD</span>
-                <span class="skills-number">85%</span>
-              </div>
-              <progress id="skills-html" value="85" max="100">85%</progress>
-            </div>
+            
           </div>
-          <div class="skills-content">
-            <h3 class="skills-subtitle">BackEnd</h3>
-            <div class="skills-data">
-              <div class="skills-data1">
-                <span class="skills-name">NodeJs</span>
-                <span class="skills-number">85%</span>
-              </div>
-              <progress id="skills-html" value="85" max="100">85%</progress>
-            </div>
-          </div>
-          <div class="skills-content">
-            <h3 class="skills-subtitle">Database</h3>
-            <div class="skills-data">
-              <div class="skills-data1">
-                <span class="skills-name">MySQL</span>
-                <span class="skills-number">85%</span>
-              </div>
-              <progress id="skills-html" value="85" max="100">85%</progress>
-            </div>
-          </div>
+        
         </div>
       </section>
-      <section class="education section" id="education">
-        <span class="section-subtitle">Qualifaction</span>
-        <h2 class="section-title">My Education</h2>
-        <div class="education-container">
-          <div class="educaton-content">
-            <h3 class="eduction-year">2014-2018</h3>
-            <span class="education-university">Shivaji University</span>
+      <section class="experience section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <span class="section-subtitle">Company Name: Cybage Software</span>
+        <span class="section-subtitle">Role: FrontEnd Devloper </span>
+        
+        <div class="about-conatiner bd-grid">
+          <div class="about-data">
+            <p class="about-description">
+              <p class="responsibility-data-subtitle">Responsibility:</p>
+                <ul class="responsibility-data">
+                  <li>
+                    Collaborated with a team to build and debug systems using ReactJS, HTML5, 
+CSS3 demonstrating adaptability and teamwork.</li>
+<li> Creating and maintaining reusable components, responsive and user-friendly 
+  web applications.</li>
+<li>Engaged in continuous learning and skill improvement and best practices.</li>
+<li>Used git for promotion build repository.</li> 
+                  
+                </ul>
+             
+            </p>
           </div>
-          <div class="education-time">
-            <span class="education-rounder"></span>
-            <span class="education-line"></span>
-          </div>
+         
         </div>
       </section>
+      <!-- <section class="projects section" id="projects">
+        <div class="projects-cards">
+         <article class="project-card">
+           <div class="projectImg">
+            <img src="./images/food-delivery-app.jpg">
+           </div>
+           <h3>Food Delivery</h3>
+           <div class="project-link">
+            <a>Link</a>
+            <a>Demo</a>
+           </div>
+         </article>
+         <article class="project-card">
+          <div class="projectImg">
+           <img src="./images/portfolio_img.png">
+          </div>
+          <h3>My portfolio</h3>
+          <div class="project-link">
+           <a href="https://github.com/aishwaryapatil612/aishwaryaportfolio" target="_blank">Link</a>
+           <a href="https://aishwaryapatilportfoilio.netlify.app" target="_blank">Demo</a>
+          </div>
+        </article>
+        </div>
+      </section> -->
+     
       <section class="contact section" id="contact">
         <span class="section-subtitle">Contact Me</span>
         <h2 class="section-title">Get In Touch</h2>
@@ -236,6 +229,7 @@
           </div>
         </div>
       </section>
+      
     </main>
     <!-- <footer class="footer section ">
         <div class="footer-container bg-grid">
@@ -258,5 +252,6 @@
         </div>
      </footer> -->
     <script src="./js/main.js"></script>
+   
   </body>
 </html>
